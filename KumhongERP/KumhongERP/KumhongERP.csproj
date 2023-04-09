@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KumhongERP.Core\KumhongERP.Core.csproj" />
+    <ProjectReference Include="..\Modules\KumhongERP.Modules.ModuleName\KumhongERP.Modules.ModuleName.csproj" />
+    <ProjectReference Include="..\Services\KumhongERP.Services.Interfaces\KumhongERP.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Services\KumhongERP.Services\KumhongERP.Services.csproj" />
+  </ItemGroup>
+</Project>
